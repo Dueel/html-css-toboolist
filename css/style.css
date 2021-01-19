@@ -1,0 +1,140 @@
+/* Regole generali */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Regole specifiche */
+
+body{
+  background-color: #f1f3f6;
+}
+
+header > div{
+  height: 100px;
+  background: white;
+  padding: 25px 20%;
+}
+
+img{
+  vertical-align: middle;
+}
+
+#header-title{
+  display: inline-block;
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0 20px;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+main{
+  width: 60%;
+  background-color: white;
+  border-radius: 7px;
+  margin: 50px auto;
+  padding: 5px 40px 25px 40px;
+  color: #6f7279;
+}
+
+/* Prima sezione */
+
+.container{
+  margin: 20px auto;
+}
+
+button{
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: 300;
+}
+
+#add-task{
+  background-color: #45ABEA;
+  color: white;
+  border: 0;
+}
+
+#add-section{
+  background-color: white;
+  border: 1.5px solid lightgrey;
+  color: lightgrey;
+  box-sizing: border-box;
+}
+
+hr{
+  border: 0.5px solid lightgrey;
+  background-color: lightgrey;
+}
+
+/* Seconda sezione */
+
+.section-margin{
+  margin: 40px 0;
+}
+
+section>h3{
+  font-size: 25px;
+  font-weight: 800;
+  margin: 10px 0;
+}
+
+.check{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 15px;
+  font-weight: 100;
+  text-align: center;
+  line-height: 20px;
+  display: inline-block;
+}
+
+.yes{
+  border: 1.5px solid green;
+  color: green;
+}
+
+.flag{
+  border-radius: 10px;
+  color: white;
+  font-size: 10px;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.task{
+  display: inline-block;
+  margin: 5px 5px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.editorial{
+  background-color: #45ABEA;
+}
+
+#goals{
+  background-color: #9C72E4;
+}
+
+#recruiting{
+  background-color: #64C0A9;
+}
+
+#mobile{
+  background-color: #F29E33;
+}
+
+#website{
+  background-color: #D863A1;
+}
+
+#sales{
+  background-color: #B0C926;
+}
