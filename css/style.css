@@ -138,3 +138,9 @@ section>h3{
 #sales{
   background-color: #B0C926;
 }
+
+.lore{
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+}
